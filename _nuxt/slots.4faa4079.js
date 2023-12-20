@@ -1,0 +1,1 @@
+const e=i=>i.map(r=>{if(!r.children||typeof r.children=="string")return r.children||"";if(Array.isArray(r.children))return e(r.children);if(r.children.default)return e(r.children.default())}).join("");export{e as g};
