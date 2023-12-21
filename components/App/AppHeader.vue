@@ -1,9 +1,9 @@
 <script setup lang="ts">
-const { nav } = useAppConfig()
+const { nav: links } = useAppConfig()
 </script>
 
 <template>
-	<UHeader :links="nav">
+	<UHeader :links="links">
 		<template #logo>
 			Nuxt UI Pro
 			<UBadge
@@ -29,13 +29,13 @@ const { nav } = useAppConfig()
 
 		<template #panel>
 			<UNavigationTree
-				:links="nav"
+				:links="links"
 				:multiple="false"
 				default-open
 			/>
 		</template>
 	</UHeader>
 	<ClientOnly>
-		<LazyUDocsSearch :links="nav" />
+		<LazyUDocsSearch :links="links" />
 	</ClientOnly>
 </template>

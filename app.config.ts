@@ -80,12 +80,12 @@ export default defineAppConfig({
 		{
 			label: "Documentation",
 			icon: "i-heroicons-book-open",
-			to: "/",
+			to: "/docs",
 		},
 		{
 			label: "Playground",
 			icon: "i-simple-icons-stackblitz",
-			to: "/",
+			to: "/playground",
 		},
 		{
 			label: "Roadmap",
