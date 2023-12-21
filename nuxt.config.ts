@@ -39,5 +39,5 @@ export default defineNuxtConfig({
 	},
 	// Devtools / Typescript
 	devtools: { enabled: true },
-	typescript: { strict: true },
+	typescript: { strict: false },
 })
