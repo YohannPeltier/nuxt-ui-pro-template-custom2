@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-	modules: ["@nuxt/content", "@nuxt/ui", "@nuxtjs/google-fonts"],
+	modules: [
+		"@nuxt/content",
+		"@nuxt/ui",
+		"@nuxthq/studio",
+		"@nuxtjs/google-fonts",
+	],
 	// Fonts
 	googleFonts: {
 		display: "swap",
